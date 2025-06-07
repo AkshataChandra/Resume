@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        
+        @page{
+            size: A4;
+            margin:20px;
+            border:2px;
+            border-color: black;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 30px;
+            background-color: azure;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(https://i.pinimg.com/736x/d9/b2/97/d9b29715b473dd0a5b37e1bc9929907b.jpg);
+        }
+        
+        .details{
+            display:flex;
+            border-style: solid;
+            background-color: antiquewhite;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 30px;
+            width: 1050px;
+            box-sizing: border-box;
+            justify-content:space-between;
+            border-color: antiquewhite;
+            padding-bottom: 5px;
+
+        }
+         .summary{
+            display:flex;
+            flex-direction: column;
+            border-style: solid;
+            background-color: antiquewhite;
+            padding: 20px;
+            width: 1050px;
+            box-sizing: border-box;
+            border-color: antiquewhite;
+            justify-content: space-between;
+
+        }
+        .content{
+            display:flex;
+            flex-direction: column;
+            background-color: antiquewhite;
+            width: 1050px;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            text-align: center;
+            border: 2px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 2px;
+            width: 950px;
+            border-collapse: collapse;
+            
+        }
+        th, td 
+        {
+        border: 1px solid black;
+        padding: 8px;
+       }
+       h3 
+        { margin-top: 5px; 
+         margin-bottom: 3px; 
+        }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: black; 
+        margin: 5px 0; 
+    }
+    </style>
+</head>
+<body>
+    <div class="details">
+        <ul type="none"style="text-align:left" >
+            <li> <strong>VEESAM AKSHATA CHANDRA,</strong> Female,18</li>
+            <li>Bachelor of Technology</li>
+            <li>in Artificial Intelligence & Data Science</li>
+            <li>Vignan's Institute of Information Technology(VIIT),Visakhapatnam</li>
+        </ul>
+        <ul type="none" style="text-align:justify-right">
+            <li><a href="tel:+918919216711">+918919216711</a></li>
+            <li><a href="mailto:akshatachandraveesam@gmail.com">akshatachandraveesam@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/akshatachandraveesam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">www.linkedin.com/in/akshatachandraveesam</a></li>
+            <li><a href="https://github.com/AkshataChandra">Github:AkshataChandra</a></li>
+        </ul>
+        </div>
+        <div class="summary">
+        <h3>EDUCATION</h3><hr>
+       <p> Passionate AI&DS Student with programming skills.Eager to contribute to AI-Driven Projects and develop innovative solutions while gaining hands-on experience.</p>
+    </div>   
+    <div class="content">
+      <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institute</th>
+                    <th>Board/University</th>
+                    <th>CGPA/Percentage</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>B.Tech</td>
+                <td>Vignan's Institute of Information Technology</td>
+                <td>JNTUGV</td>
+                <TD>9.32(Till 3rd sem)</TD>
+                <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td>Class XII</td>
+                    <td>Sri Chaintanya Junior College</td>
+                    <td>B.I.E,Andhra Pradesh</td>
+                    <td>94.5%</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Class X</td>
+                    <td>DAV Centernary Public School</td>
+                    <td>CBSE</td>
+                    <td>95%</td>
+                    <td>2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+    <div class="summary">
+        <br>
+        <h3>TECHNICAL SKILLS</h3><hr>̥
+        <ol type="none">
+            <li><strong>Programming languages</strong>
+                <UL type="1.">
+                    <li>Introductory level:JAVA,HTML,CSS,Java Script</li>
+                    <li>Practioner level: C,Python</li>
+                </UL>
+            </li>
+            <li><strong>Tools & Frame work:</strong> Jupyter ,Visual Studio</li>
+            <li><strong>Operating Systems:</strong> Windows & Android</li>
+            <li><strong>Algorithms:</strong> DSA & Advanced DSA</li>
+            <li><strong>Database:</strong> MySQL</li>
+        </ol>
+        <H3>CERTIFICATIONS & INTERNSHIPS</H3><hr>
+        <ol>
+           <li><strong>Machine Learning , AI&DS</strong>
+               <ul type="1.">
+                <li>Introduction to Data Science,CISCO</li>
+                <li>Google Android Developer Virtual Internship,EduSkills,AICTE</li>
+                <li>AWS Data Engineering Virtual Internship,EduSkills,AICTE</li>
+               </ul>
+            </li>
+            <li><strong>Programming Languages</strong>
+                <ul type="1.">
+                    <li>Python Essentials(1),CISCO</li>
+                    <li>Python Essentials(2),CISCO</li>
+                    <li>Introduction to Cyber Security,CISCO</li>
+                    <li>Cyber Security Essentials,CISCO</li>
+                </ul>
+            </li> 
+        </ol>
+        <h3>PROJECTS</h3><hr>
+        <ol>
+            <li><strong>Mini Games :</strong>
+                <ul type="1.">
+                    <li>Tic Tac Toe-AI : Built using python , allowing single player mode with an AI</li>
+                    <li>BMI Calculator : Calculates BMI Based on height ,weight, age & gender.</li>
+                    <li>Scientific Calculator : Created a Calculator that supports advanced functions</li>
+                </ul>
+            </li>
+            <li><strong>Bus Buddy</strong> is a project which works on the issue of uncertainity in public transport mainly bus.It provides user with location of the bus along with the crowd float in the bus.</li>
+            <li><strong>Students Health Monitoring System</strong>It gives advices & tips , predicates Haemoglobin levels , sends health report in email & the health report can be downloded.User input values can be taken as well as group of values in CSV format can be uploaded</li>
+            <li><strong>Boochi</strong> is a Rag application.</li>
+        </ol>
+        <h3>ROLES & RESPONSIBILITIES</h3><hr>
+        <ol>
+            <li><strong>Learning,Co-Chair,</strong> YUVA Young Indians,EC,VIIT <br>(Jan 2025-Present)</li>
+            <li><strong>Joint Secretary,</strong> AI&DS Department,Student Activity Council (SAC) <br>(Nov 2024-Present)</li>
+            <li><strong>Web Development Member,</strong> Matrix Club,VIIT<br>(Sept 2024-Present)</li>
+            <li><strong>Anchor,</strong> Anchoring club,VIIT<br>(Aug 2024-Present)</li>
+        </ol>
+        <h3>LANGUAGES & NON-TECHNICAL SKILLS</h3><hr>
+        <ol><li>Telugu , English , Hindi
+            <li>Crowd Management , Event organization , Speaking skills</li>
+        </ol>
+        <h3>MISCELLANEOUS</h3><hr>
+        <ol>
+            <li>Pitched a startup idea at IIT Bombay Eureka , competing against 200+ teams</li>
+            <li>Took part in various Hackathons like HackXelerate, IIT Hyderabad Tinker's Lab, Smart Innovate by NIT Bhopal,Hacksagon,Smart India Hackathon,Google Solution Challenge, reached finals for Smart Innovate hackathon.</li>
+            <li>Participated in APP designing contest Held by VIIT-Vista Fest</li>
+        </ol>
+    </div>
+</body>
+</html>
